@@ -1,0 +1,9 @@
+<div class="container">
+        <form class="form-signin" role="form" ng-submit="submitFunction()" ng-controller="loginController">
+	        <h2 class="form-signin-heading">Login to Library</h2>
+	        <input type="text" class="form-control" placeholder="username" ng-model="userName">
+	        <input type="password" class="form-control" placeholder="Password" ng-model="password">
+	        <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="login()">Sign In</button>
+	        <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="cancel()">Cancel</button>
+    	</form>
+</div>
